@@ -33,6 +33,7 @@ class CoreDataHandler: NSObject {
             return false
         }
     }
+
     class func fetchdata() -> [Mobile]?{
        let context = getContext()
         var mobile:[Mobile]? = nil
